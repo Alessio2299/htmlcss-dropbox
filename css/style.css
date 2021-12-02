@@ -124,9 +124,6 @@ a{
 /* Start Main */
 
 /* Section Bunisiness */
-.title-container{
-
-}
 .col{
   width: 30%;
   float: left;
@@ -166,7 +163,7 @@ div input{
 .text{
   margin: 30px 20px;
 }
-.col i{
+.col i, .business-bottom i{
   margin-right: 5px;
 }
 .text span{
@@ -253,4 +250,28 @@ padding-bottom: 30px;
 }
 .text-lf p{
   font-size: 12px;
+}
+/* End Section Business */
+
+/* Start Section Contact Partner */
+section .image{
+  width: 50%;
+  float: left;
+}
+.text-partner{
+  width: 45%;
+  float: right;
+}
+.image img{
+  width: 100%;
+}
+.text-partner a{
+  background-color: #fff;
+  border: 1px solid black;
+}
+.text-partner h2{
+  margin: 40px 0;
+}
+.text-partner p{
+  margin-bottom: 30px;
 }
