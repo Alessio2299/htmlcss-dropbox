@@ -275,3 +275,34 @@ section .image{
 .text-partner p{
   margin-bottom: 30px;
 }
+/* End Section Contact Partner */
+
+/* Start Operation Dropbox */
+.container{
+  margin-top: 80px;
+}
+.container-lf, .container-ct, .container-rh{
+  width: 30%;
+  margin-bottom: 100px;
+}
+.container-ct, .container-lf{
+  float: left;
+}
+.container-ct{
+  margin-left: 50px;
+}
+.container-rh{
+  float: right;
+}
+.content-image{
+  margin: 5px;
+  width: 96%;
+}
+.content-text{
+  margin: 5px;
+  width: 96%;
+}
+.content-image img{
+  width: 100%;
+  object-fit: cover;
+}
