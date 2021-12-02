@@ -204,14 +204,22 @@ padding-bottom: 30px;
 }
 .text li{
   margin-top: 20px;
-  list-style-type: "\2713";
-}
 
+}
 .text li i{
   color: rgb(5,	80,	255);
+  display: inline-block;
+  width: 10%;
+  vertical-align: top;
+  margin-top: 3px;
 }
 .text ul{
   margin-bottom: 150px;
+  list-style: none;
+}
+.text ul li span{
+  display: inline-block;
+  width: 85%;
 }
 .business-bottom{
   width: 100%;
@@ -235,6 +243,7 @@ padding-bottom: 30px;
 }
 .business-bottom .text-rg .btn{
   padding: 8px 55px;
+  color: #fff;
 }
 .text-lf h4{
   font-size: 30px;
