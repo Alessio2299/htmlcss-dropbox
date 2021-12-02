@@ -1,0 +1,64 @@
+/* Command Common */
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html{
+  font-family: 'Open Sans', sans-serif;
+}
+/* End Command Common */
+
+/* Start Header */
+.row{
+  height: 80px;
+  width: 100%;
+  background-color: #fff;
+  position: fixed;
+  min-width: 1400px;
+}
+#logo{
+  width: 10%;
+  height: 80px;
+  line-height: 80px;
+  float: left;
+}
+#logo img{
+  width: 80%;
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 20px;
+}
+.nav-right{
+  width: 35%;
+  height: 80px;
+  float: right;
+  line-height: 80px;
+  text-align: center;
+}
+.nav-left{
+  width: 30%;
+  height: 80px;
+  float: left;
+  line-height: 80px;
+  text-align: center;
+}
+.row nav li{
+  display: inline-block;
+  list-style: none;
+  vertical-align: middle;
+  font-size: 15px;
+  margin-right: 30px;
+}
+.row a{
+  text-decoration: none;
+  color: #000;
+}
+.btn{
+  background-color: rgb(5,	97,	255);
+  padding: 8px 20px;
+}
+.row li .btn{
+  color: #fff;
+}
+
