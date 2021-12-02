@@ -12,6 +12,10 @@ html{
   display: table;
   clear: both;
 }
+section{
+  width: 70%;
+  margin: 200px auto;
+}
 /* End Command Common */
 
 /* Start Header */
@@ -112,4 +116,132 @@ a{
 }
 .content-jumbotron, .image-jumbotron{
   margin-top: 50px;
+}
+/* End Jumbotron */
+
+/* End Header */
+
+/* Start Main */
+
+/* Section Bunisiness */
+.title-container{
+
+}
+.col{
+  width: 30%;
+  float: left;
+  border: 1px solid gray;
+  border-radius: 3px;
+}
+#business .rg{
+  float: right;
+}
+#business .ct{
+  margin-left: 50px;
+}
+input:nth-last-child(2){
+  margin-left: 20px;
+}
+div input{
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+.title-container h2{
+  font-size: 38px;
+}
+.col h5, .business-bottom h5{
+  text-align: center;
+  padding: 10px 0;
+  border-bottom: 1px solid gray;
+  font-size: 18px;
+}
+.text .characteristic span{
+  font-size: 13px;
+  margin: 20px 0;
+}
+.text h4{
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+.text{
+  margin: 30px 20px;
+}
+.col i{
+  margin-right: 5px;
+}
+.text span{
+  display: block;
+}
+.small-text{
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+.text .big{
+  padding: 8px 40px;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  margin-top: 50px;
+  display: inline-block;
+}
+.text .buy span{
+display: inline;
+border-bottom: 1px solid gray;
+padding-bottom: 30px;
+}
+.text .buy{
+  padding: 30px 0;
+}
+.text .buy a{
+  color: rgb(5,	88,	255);
+  text-decoration: underline;
+}
+.text h6{
+  margin-top: 40px;
+  margin-bottom: 20px;
+  font-size: 15px;
+}
+.text li{
+  margin-top: 20px;
+  list-style-type: "\2713";
+}
+
+.text li i{
+  color: rgb(5,	80,	255);
+}
+.text ul{
+  margin-bottom: 150px;
+}
+.business-bottom{
+  width: 100%;
+  border: 1px solid gray;
+  margin-top: 50px;
+  border-radius: 3px;
+}
+.business-bottom .text-lf{
+  float: left;
+  width: 63%;
+  margin-left: 40px;
+}
+.business-bottom .text-rg{
+  float: left;
+  width: 30%;
+  text-align: center;
+}
+.text-lf, .text-rg{
+  margin: 40px 0;
+  line-height: 40px;
+}
+.business-bottom .text-rg .btn{
+  padding: 8px 55px;
+}
+.text-lf h4{
+  font-size: 30px;
+}
+.text-lf h6{
+  font-size: 15px;
+}
+.text-lf p{
+  font-size: 12px;
 }
