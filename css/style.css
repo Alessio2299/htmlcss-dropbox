@@ -22,7 +22,7 @@ section{
 
 /* Start Row Nav */
 .row{
-  height: 80px;
+  height: 82px;
   width: 100%;
   background-color: #fff;
   position: fixed;
@@ -58,8 +58,7 @@ section{
   list-style: none;
   vertical-align: middle;
   font-size: 15px;
-  margin: 0 20px;
-  
+  padding : 0 20px;
 }
 a{
   text-decoration: none;
@@ -392,6 +391,10 @@ section .image{
   width: 10%;
   border: 1px solid lightgray;
 }
+.company svg{
+  fill:blue;
+}
+
 /* End Section Affiliations */
 
 /* Start Bottom Banner */
@@ -422,6 +425,9 @@ section .image{
   padding: 8px 40px;
   background-color: white;
 }
+.company img{
+  filter: invert(1)
+}
 /* End Bottom Banner */
 
 /* Start Section Faq */
@@ -437,7 +443,7 @@ section .image{
   padding: 30px 0;
 }
 .title-faq, .content-faq{
-  border-bottom:1px solid gray ;
+  border-bottom:1px solid lightgray ;
 }
 .content-faq span{
   float: right;
@@ -471,7 +477,7 @@ section .image{
    padding-bottom: 40px;
  }
  .container-language span{
-  border-top: 1px solid gray;
+  border-top: 1px solid lightgray;
   padding: 40px 0;
  }
 .container-language i{
