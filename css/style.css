@@ -26,8 +26,8 @@ section{
   width: 100%;
   background-color: #fff;
   position: fixed;
-  min-width: 1400px;
   z-index: 4;
+  min-width: 1050px;
 }
 #logo{
   width: 10%;
@@ -42,14 +42,12 @@ section{
   margin-left: 20px;
 }
 .nav-right{
-  width: 35%;
   height: 80px;
   float: right;
   line-height: 80px;
   text-align: center;
 }
 .nav-left{
-  width: 30%;
   height: 80px;
   float: left;
   line-height: 80px;
@@ -60,7 +58,8 @@ section{
   list-style: none;
   vertical-align: middle;
   font-size: 15px;
-  margin-right: 30px;
+  margin: 0 20px;
+  
 }
 a{
   text-decoration: none;
@@ -165,7 +164,13 @@ div input{
   margin: 30px 20px;
 }
 .col i, .business-bottom i{
-  margin-right: 5px;
+  margin-right: 3px;
+}
+.characteristic ul li i{
+  margin-top: 20px;
+}
+.characteristic ul li{
+  margin: 0;
 }
 .text span{
   display: block;
@@ -202,7 +207,6 @@ padding-bottom: 30px;
 }
 .text li{
   margin-top: 20px;
-
 }
 .text li i{
   color: rgb(5,	80,	255);
@@ -212,7 +216,6 @@ padding-bottom: 30px;
   margin-top: 3px;
 }
 .text ul{
-  margin-bottom: 150px;
   list-style: none;
 }
 .text ul li span{
@@ -323,31 +326,28 @@ section .image{
 }
 .square-lf, .square-rt{
   width: 30vw;
+  height: 30vw;
 }
 .square-ct{
-  width: 40vw;
-  height: 500px;
+  width: calc(100% - 60vw);
+  height: 30vw;
   background-color: rgb(245,	245,	245);
   padding: 50px 50px 100px 50px;
   overflow: scroll;
 }
-.square-lf, .square-ct{
+.square-lf, .square-ct, .square-rt{
   float: left;
 }
-.square-rt{
-  float: right;
-}
-.company-sx img, .company-rx img{
+.company img{
   width: 60%;
   position: absolute;
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
-.company-sx{
+.company{
   width: 50%;
-  background-color: darkred;
-  height: 250px;
+  height: 15vw;
   float: left;
   position: relative;
 }
@@ -376,19 +376,13 @@ section .image{
   background-color: rgb(255,	215,	47);
 }
 .under-square{
-  margin: 10px;
+  margin: 5%;
   width: 90%;
   height: 90%;
   background-color: rgb(162, 211,	155);
 }
-.company-rx{
-  width: 50%;
-  height: 250px;
-  float: right;
-  position: relative;
-}
 .square-ct img{
-  width: 120px;
+  width: 30%;
   margin-bottom: 50px;
 }
 .square-ct p{
@@ -398,30 +392,57 @@ section .image{
   width: 10%;
   border: 1px solid lightgray;
 }
-.end-banner{
+/* End Section Affiliations */
+
+/* Start Bottom Banner */
+.bottom-banner{
   width: 100%;
   background-color: rgb(180,	208,	231);
 }
-.container-end-banner{
+.container-bottom-banner{
   width: 70%;
   margin: auto;
 }
-.title-end-banner-sx{
+.title-bottom-banner-sx{
   width: 45%;
   float: left;
-  color: rgb(98,	20,	49);
 }
-.container-end-banner .button-dx{
+.container-bottom-banner .button-dx{
   width: 4  0%;
   float: right;
 }
-.title-end-banner-sx h3{
-  font-size: 30px;
+.title-bottom-banner-sx h3{
+  font-size: 35px;
+  color: rgb(97,	8,	43);
 }
-.title-end-banner-sx, .button-dx{
+.title-bottom-banner-sx, .button-dx{
   padding: 100px 0;
 }
-.container-end-banner .button-dx .btn{
+.container-bottom-banner .button-dx .btn{
   padding: 8px 40px;
   background-color: white;
+}
+/* End Bottom Banner */
+
+/* Start Section Faq */
+.title-faq{
+  padding-bottom: 50px;
+}
+.content-faq h4, .content-faq span{
+ display: inline-block;
+ line-height: 40px;
+ height: 40px;
+}
+.content-faq{
+  padding: 30px 0;
+}
+.title-faq, .content-faq{
+  border-bottom:1px solid gray ;
+}
+.content-faq span{
+  float: right;
+  font-size: 20px;
+}
+.content-faq p{
+  display: none;
 }
