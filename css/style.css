@@ -14,7 +14,7 @@ html{
 }
 section{
   width: 70%;
-  margin: 200px auto;
+  margin: 150px auto;
 }
 /* End Command Common */
 
@@ -27,6 +27,7 @@ section{
   background-color: #fff;
   position: fixed;
   min-width: 1400px;
+  z-index: 4;
 }
 #logo{
   width: 10%;
@@ -190,7 +191,7 @@ padding-bottom: 30px;
 .text .buy{
   padding: 30px 0;
 }
-.text .buy a{
+.text .buy a, .title-affiliations a{
   color: rgb(5,	88,	255);
   text-decoration: underline;
 }
@@ -277,7 +278,7 @@ section .image{
 }
 /* End Section Contact Partner */
 
-/* Start Operation Dropbox */
+/* Start Section Operation Dropbox */
 .container{
   margin-top: 80px;
 }
@@ -305,4 +306,122 @@ section .image{
 .content-image img{
   width: 100%;
   object-fit: cover;
+}
+/* End Section Operation Dropbox */
+
+/* Start Affiliations */
+.title-affiliations{
+  width: 70%;
+  margin: 50px auto;
+}
+.title-affiliations h2{
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.affiliations{
+  width: 100%;
+}
+.square-lf, .square-rt{
+  width: 30vw;
+}
+.square-ct{
+  width: 40vw;
+  height: 500px;
+  background-color: rgb(245,	245,	245);
+  padding: 50px 50px 100px 50px;
+  overflow: scroll;
+}
+.square-lf, .square-ct{
+  float: left;
+}
+.square-rt{
+  float: right;
+}
+.company-sx img, .company-rx img{
+  width: 60%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.company-sx{
+  width: 50%;
+  background-color: darkred;
+  height: 250px;
+  float: left;
+  position: relative;
+}
+.green{
+  background-color: rgb(210,	233,	205);
+}
+.brown{
+  background-color: rgb(98,	9,	43);
+}
+.cyan{
+  background-color: rgb(0, 147,	206);
+}
+.orange{
+  background-color: rgb(255,	29,	28);
+}
+.red{
+  background-color: rgb(213,	0,	32);
+}
+.lightcyan{
+  background-color: rgb(181,	208,	231);
+}
+.blue{
+  background-color: rgb(15,	36,	129);
+}
+.yellow{
+  background-color: rgb(255,	215,	47);
+}
+.under-square{
+  margin: 10px;
+  width: 90%;
+  height: 90%;
+  background-color: rgb(162, 211,	155);
+}
+.company-rx{
+  width: 50%;
+  height: 250px;
+  float: right;
+  position: relative;
+}
+.square-ct img{
+  width: 120px;
+  margin-bottom: 50px;
+}
+.square-ct p{
+  padding: 50px 0;
+}
+.line{
+  width: 10%;
+  border: 1px solid lightgray;
+}
+.end-banner{
+  width: 100%;
+  background-color: rgb(180,	208,	231);
+}
+.container-end-banner{
+  width: 70%;
+  margin: auto;
+}
+.title-end-banner-sx{
+  width: 45%;
+  float: left;
+  color: rgb(98,	20,	49);
+}
+.container-end-banner .button-dx{
+  width: 4  0%;
+  float: right;
+}
+.title-end-banner-sx h3{
+  font-size: 30px;
+}
+.title-end-banner-sx, .button-dx{
+  padding: 100px 0;
+}
+.container-end-banner .button-dx .btn{
+  padding: 8px 40px;
+  background-color: white;
 }
