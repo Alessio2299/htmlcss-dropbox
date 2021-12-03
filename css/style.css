@@ -215,7 +215,7 @@ padding-bottom: 30px;
   vertical-align: top;
   margin-top: 3px;
 }
-.text ul{
+.text ul, .column ul{
   list-style: none;
 }
 .text ul li span{
@@ -445,4 +445,35 @@ section .image{
 }
 .content-faq p{
   display: none;
+}
+/* End Section Faq */
+
+ /* Start Footer */
+ footer{
+   background-color: #000;
+ }
+ .container-footer, .container-language {
+   width: 80%;
+   margin:auto;
+ }
+ .column{
+   width: 20%;
+   float: left;
+   padding: 100px 0;
+   color: #fff;
+   line-height: 35px;
+ }
+ .column h3{
+   margin-bottom: 20px;
+ }
+ .container-language{
+   color: gray;
+   padding-bottom: 40px;
+ }
+ .container-language span{
+  border-top: 1px solid gray;
+  padding: 40px 0;
+ }
+.container-language i{
+  margin-right: 5px;
 }
