@@ -2,15 +2,22 @@
   box-shadow: 3px 3px 5px #000;
 }
 .row li:hover{
-  border-bottom: 1px solid blue;
+  border-bottom: 1px solid #000;
 }
-#null:hover{
+.nav-right ul .null:hover{
   border: none;
 }
 .content-faq:hover p{
   display: inline-block;
 }
 footer li:hover{
+  cursor: pointer;
   text-decoration: underline;
+}
+#submenu:hover ul{
+  display: block;
+}
+#submenu ul li:hover{
+  background-color: lightgray;
   cursor: pointer;
 }

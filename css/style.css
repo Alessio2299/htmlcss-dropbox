@@ -46,6 +46,7 @@ section{
   float: right;
   line-height: 80px;
   text-align: center;
+  position: relative;
 }
 .nav-left{
   height: 80px;
@@ -70,6 +71,17 @@ a{
 }
 .row li .btn{
   color: #fff;
+}
+header .row #submenu ul li{
+  display: block;
+  text-align: left;
+}
+#submenu ul{
+  top: 30;
+  left: 0;
+  position: absolute;
+  background-color: #fff;
+  display: none;
 }
 /* End Row Nav */
 
@@ -426,7 +438,7 @@ section .image{
   background-color: white;
 }
 .company img{
-  filter: invert(1)
+  filter: invert(1);
 }
 /* End Bottom Banner */
 
