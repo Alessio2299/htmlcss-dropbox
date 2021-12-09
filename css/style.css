@@ -27,7 +27,7 @@ section{
   background-color: #fff;
   position: fixed;
   z-index: 4;
-  min-width: 1050px;
+  min-width: 1070px;
 }
 #logo{
   width: 10%;
@@ -37,28 +37,20 @@ section{
 }
 #logo img{
   width: 80%;
-  display: inline-block;
   vertical-align: middle;
   margin-left: 20px;
 }
 .nav-right{
-  height: 80px;
   float: right;
   line-height: 80px;
-  text-align: center;
   position: relative;
 }
 .nav-left{
-  height: 80px;
   float: left;
   line-height: 80px;
-  text-align: center;
 }
 .row nav li{
-  display: inline-block;
-  list-style: none;
   vertical-align: middle;
-  font-size: 15px;
   padding : 0 20px;
 }
 a{
@@ -106,7 +98,7 @@ header .row #submenu ul li{
   line-height: 20px;
   float: left;
 }
-.jumbotron a{
+.jumbotron a, .row nav li, .text .big, .text li i, #logo img{
   display: inline-block;
 }
 .jumbotron .btn{
@@ -197,7 +189,6 @@ div input{
   text-align: center;
   font-size: 14px;
   margin-top: 50px;
-  display: inline-block;
 }
 .text .buy span{
 display: inline;
@@ -214,19 +205,17 @@ padding-bottom: 30px;
 .text h6{
   margin-top: 40px;
   margin-bottom: 20px;
-  font-size: 15px;
 }
 .text li{
   margin-top: 20px;
 }
 .text li i{
   color: rgb(5,	80,	255);
-  display: inline-block;
   width: 10%;
   vertical-align: top;
   margin-top: 3px;
 }
-.text ul, .column ul{
+.text ul, .column ul, .row nav li{
   list-style: none;
 }
 .text ul li span{
@@ -260,7 +249,7 @@ padding-bottom: 30px;
 .text-lf h4{
   font-size: 30px;
 }
-.text-lf h6{
+.text-lf h6, .row nav li, .text h6{
   font-size: 15px;
 }
 .text-lf p{
@@ -495,3 +484,4 @@ section .image{
 .container-language i{
   margin-right: 5px;
 }
+/* End Footer */

@@ -1,5 +1,6 @@
 .btn:hover{
   box-shadow: 3px 3px 5px #000;
+  filter:contrast(3)
 }
 .row li:hover{
   border-bottom: 1px solid #000;
@@ -20,4 +21,24 @@ footer li:hover{
 #submenu ul li:hover{
   background-color: lightgray;
   cursor: pointer;
+}
+.bounce {
+  animation: bounce 2s infinite;
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-10px);
+  }
+  60% {
+    transform: translateY(-5px);
+  }
+}
+.arrow a:hover{
+  opacity: 0.5;
+}
+.buy a:hover, .title-affiliations a:hover{
+  text-decoration: none;
 }
