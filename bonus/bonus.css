@@ -23,6 +23,8 @@ footer li:hover{
   cursor: pointer;
 }
 .bounce {
+  -webkit-transform: bounce 2s infinite;
+  -ms-transform: bounce 2s infinite;
   animation: bounce 2s infinite;
 }
 @keyframes bounce {
