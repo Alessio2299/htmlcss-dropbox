@@ -1,6 +1,6 @@
 .btn:hover{
   box-shadow: 3px 3px 5px #000;
-  filter:contrast(3)
+  filter:contrast(3); 
 }
 .row li:hover{
   border-bottom: 1px solid #000;
@@ -23,9 +23,9 @@ footer li:hover{
   cursor: pointer;
 }
 .bounce {
-  -webkit-transform: bounce 2s infinite;
-  -ms-transform: bounce 2s infinite;
-  animation: bounce 2s infinite;
+  -webkit-transform: bounce 2s infinite; /* Safari */
+  -ms-transform: bounce 2s infinite; /* IE */
+  animation: bounce 2s infinite; 
 }
 @keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
